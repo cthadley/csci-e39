@@ -18,12 +18,15 @@ body {
   display: flex;
 }
 
-main { 
+main {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
 
+section {
+  margin: 0 2rem;
+}
 
 .component {
   background: $primary-color;

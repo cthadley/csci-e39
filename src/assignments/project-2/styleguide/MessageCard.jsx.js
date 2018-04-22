@@ -12,7 +12,7 @@ class MessageCard extends React.Component {
         <label>
           <span className="student-name">{this.props.student.name}</span>
           &nbsp;at&nbsp;
-          <span className="created-at">{this.props.createdAt.toISOString()}</span>
+          <span className="created-at">{this.props.createdAt.getMonth()/this.props.createdAt.getDate()/this.props.createdAt.getFullYear() at this.props.createdAt.getHours():this.props.createdAt.getMinutes()}</span>
         </label>
         <p className="message-text">{this.props.text}</p>
       </div>
